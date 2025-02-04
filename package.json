@@ -1,0 +1,17 @@
+{
+  "name": "ac_lapstatsviewer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Dante Batistti",
+  "type": "commonjs",
+  "main": "/src/index.js",
+  "dependencies": {
+    "ini": "^2.0.0",
+    "path": "^0.12.7",
+    "fs-extra": "^10.0.0"
+  },
+  "scripts": {
+    "test": "node index.js"
+  }
+}
