@@ -1,17 +1,19 @@
 {
-  "name": "ac_lapstatsviewer",
+  "name": "ac_bestlapsviewer",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "Dante Batistti",
   "type": "commonjs",
-  "main": "/src/index.js",
+  "main": "./index.js",
   "dependencies": {
+    "electron": "^34.0.2",
+    "fs-extra": "^10.0.0",
     "ini": "^2.0.0",
-    "path": "^0.12.7",
-    "fs-extra": "^10.0.0"
+    "path": "^0.12.7"
   },
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "electron ."
   }
 }

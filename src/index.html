@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Assetto Corsa Best Laps Viewer</title>
+  </head>
+  <style>
+    .hidden {
+        display: none;
+    }
+  </style>
+  <body>
+    <div id="title">
+    <h1 id="texto">Assetto Corsa Best Laps Viewer</h1>
+    </div>
+
+    <button id="selectIni">Select .ini Location</button>
+
+    <div id="menuIni" class = "hidden">
+        <label>documents/Assetto Corsa path:</label>
+        <input type="text" id="path" required />
+        <button id="pathBtn">Load</button>
+    </div>
+
+    <div id="menuCar" class = "hidden">
+        <h2>Select your car:</h2>
+        <ul id="trackList"></ul>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
